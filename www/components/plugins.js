@@ -45,7 +45,6 @@ function mostraMapa (lat, long, alt){
           zoom: 15
         });
 
-        map.addControl(L.mapquest.control());
 
         L.marker([lat,long,alt], {
           icon: L.mapquest.icons.marker(),
